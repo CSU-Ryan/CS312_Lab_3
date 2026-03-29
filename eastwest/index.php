@@ -2,8 +2,8 @@
 
 <?php
 // Setup for default page
-$_GET["direction"] = "east";
-$_POST["page"] = "index";
+$_GET["direction"] = $_GET["direction"] ?? "east";
+$_POST["page"] = $_POST["page"] ?? "index";
 ?>
 
 <html lang="en">
