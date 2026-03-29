@@ -12,7 +12,7 @@ $_POST["page"] = "index";
 <body>
 
 <p> Header below! </p>
-// <?php include "./content/header.php"; ?>
+<?php // include "./content/header.php"; ?>
 
 </body>
 
