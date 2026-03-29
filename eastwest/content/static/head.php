@@ -3,17 +3,17 @@ $title = [
     "home"  => "Ryan Grimm - Homepage",
     "about" => "Ryan Grimm - About",
     "foods" => "Ryan Grimm - Favorite Foods"
-]
+];
 $description = [
     "home"  => "Ryan Grimm homepage",
     "about" => "About Me page for Ryan Grimm",
     "foods" => "Ryan Grimm's favorite foods"
-]
+];
 $keywords = [
     "home"  => "ryan grimm, CSU, computer science",
     "about" => "ryan grimm, CSU, computer science, about",
     "foods" => "ryan grimm, CSU, computer science, favorite food"
-]
+];
 ?>
 
 <head>
