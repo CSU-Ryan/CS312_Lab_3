@@ -1,4 +1,5 @@
 <header>
+    <p> testing! </p>
     <h1>
         <?php echo ucwords("$_POST[page] $_GET[direction]"); ?>
     </h1>
