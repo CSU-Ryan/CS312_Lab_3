@@ -1,5 +1,5 @@
 <nav>
     <ul>
-        <li><a href="#?direction=<?php echo $other_direction ?>">Switch</a></li>
+        <li><a href="index.php?direction=<?php echo $other_direction ?>">Switch</a></li>
     </ul>
 </nav>
