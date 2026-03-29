@@ -1,6 +1,6 @@
 <article>
     <h2>Hi</h2>
-    <img src="../resources/blahaj.png" alt="blahaj" width="500">
+    <img src="./resources/blahaj.png" alt="blahaj" width="500">
     <p>Look at all my random info!</p>
     <blockquote cite="https://www.lipsum.com/">
         <p>
