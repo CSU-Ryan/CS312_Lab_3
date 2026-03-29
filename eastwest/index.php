@@ -7,7 +7,7 @@ $_POST["page"] = "index";
 ?>
 
 <html lang="en">
-<?php // include "./content/head.php"; ?>
+<?php include "./content/head.php"; ?>
 
 <body>
 
