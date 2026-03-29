@@ -1,3 +1,4 @@
 pull:
-	git rebase origin
+	git restore .
+	git pull
 	chmod -R 755 .
