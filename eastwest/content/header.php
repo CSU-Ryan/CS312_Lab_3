@@ -1,5 +1,5 @@
 <header>
     <h1>
-        <?php echo ucwords($_GET['direction'] . " " . $_POST['page']); ?>
+        <?php echo ucwords($direction . " " . $page); ?>
     </h1>
 </header>

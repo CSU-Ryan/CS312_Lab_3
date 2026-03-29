@@ -2,8 +2,9 @@
 
 <?php
 // Setup for default page
-$_GET["direction"] = $_GET["direction"] ?? "east";
-$_POST["page"] = $_POST["page"] ?? "index";
+$direction = $_GET["direction"] ?? "east";
+$other_direction = ($direction == "east") ? "west" : "east";
+$page = $_POST["page"] ?? "index";
 ?>
 
 <html lang="en">
@@ -12,6 +13,8 @@ $_POST["page"] = $_POST["page"] ?? "index";
 <body>
 
     <?php include "./content/header.php"; ?>
+
+    <?php include "./content/nav.php"; ?>
 
 </body>
 </html>
