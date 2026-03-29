@@ -1,8 +1,18 @@
+<?php
+function toPage($toPage) {
+    return "index.php?direction={$direction}&page={$toPage}";
+}
+
+function swap() {
+    return "index.php?direction={$other_direction}&page={$page}";
+}
+?>
+
 <nav>
     <ul>
-        <li><a href="index.php?page=home">Home</a></li>
-        <li><a href="index.php?page=about">About</a></li>
-        <li><a href="index.php?page=foods">Foods</a></li>
-        <li><a href="index.php?direction=<?php echo $other_direction; ?>">Switch</a></li>
+        <li><a href="<?php echo toPage("home"); ?>">Home</a></li>
+        <li><a href="<?php echo toPage("about"); ?>">About</a></li>
+        <li><a href="<?php echo toPage("foods"); ?>">Foods</a></li>
+        <li><a href="<?php echo swap(); ?>">Switch</a></li>
     </ul>
 </nav>
