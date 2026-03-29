@@ -1,5 +1,4 @@
 <?php
-
 // Setup for default page
 $_GET["direction"] = "east";
 $_POST["page"] = "index";
@@ -9,6 +8,7 @@ $_POST["page"] = "index";
 
 <body>
 
+<p> Header below! </p>
 <?php include "./content/header.php"; ?>
 
 </body>
