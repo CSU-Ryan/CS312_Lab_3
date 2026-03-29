@@ -1,5 +1,5 @@
 <?php
-$GET["direction"] = "east";
+$_GET["direction"] = "east";
 
 include "./content/head.html";
 ?>
