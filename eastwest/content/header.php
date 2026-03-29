@@ -1,5 +1,5 @@
 <header>
     <h1>
-        <?php echo $_POST['page'] . " " . $_GET['direction']; ?>
+        <?php echo "$_GET['direction'] $_POST['page']"; ?>
     </h1>
 </header>
