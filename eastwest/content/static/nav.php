@@ -1,6 +1,6 @@
 <?php
 function linkTo($direction, $page) {
-    return "index.php?direction={$direction}&page={$page}";
+    return "?direction={$direction}&page={$page}";
 }
 ?>
 
