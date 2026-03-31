@@ -31,7 +31,11 @@ nav li {
     margin: 0 25px;
 }
 
-nav a {
+nav button {
+    background: none;
+    border: none;
+    outline: none;
+
     font-family: monospace;
     font-weight: bold;
     font-size: large;
@@ -39,12 +43,12 @@ nav a {
     justify-content: center;
 }
 
-a {
+button, a {
     color: var(--alt-light);
     text-decoration: none;
 }
 
-a:hover {
+button:hover, a:hover {
     color: var(--alt-dark);
     font-style: italic;
 }
