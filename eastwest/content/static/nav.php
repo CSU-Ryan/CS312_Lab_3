@@ -24,6 +24,6 @@ function linkTo($direction) {
                 <input type="submit" value="Foods">
             </form>
         </li>
-        <li><a href="?direction=<?php echo $direction; ?>">Switch</a></li>
+        <li><a href="?direction=<?php echo $other_direction; ?>">Switch</a></li>
     </ul>
 </nav>
