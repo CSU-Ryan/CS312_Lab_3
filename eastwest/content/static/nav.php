@@ -7,7 +7,7 @@ function linkTo($direction, $page) {
     </form>
     ';
 
-    return htmlspecialchars($form);
+    return $form;
 }
 ?>
 
