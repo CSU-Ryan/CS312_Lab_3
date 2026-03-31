@@ -7,19 +7,19 @@ function linkTo($direction, $page) {
 <nav>
     <ul>
         <li>
-            <form method="post" action="submit.php">
+            <form method="post" action="index.php">
                 <input type="hidden" name="page" value="home">
                 <input type="submit" value="Home">
             </form>
         </li>
         <li>
-            <form method="post" action="submit.php">
+            <form method="post" action="index.php">
                 <input type="hidden" name="page" value="about">
                 <input type="submit" value="About">
             </form>
         </li>
         <li>
-            <form method="post" action="submit.php">
+            <form method="post" action="index.php">
                 <input type="hidden" name="page" value="foods">
                 <input type="submit" value="Foods">
             </form>
