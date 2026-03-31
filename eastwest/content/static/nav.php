@@ -1,9 +1,10 @@
 <?php
 function linkTo($direction, $page) {
+    $page_name = ucwords($page);
     $form = '
     <form method="post" action="?direction={$direction}">
         <input type="hidden" name="page" value="{$page}">
-        <input type="submit" value="{ucwords($page)}">
+        <input type="submit" value="{$page_name}">
     </form>
     ';
 
