@@ -3,7 +3,7 @@
 <?php // Setup for default page
 $direction       = $_GET["direction"] ?? "east";
 $other_direction = ($direction == "east") ? "west" : "east";
-$page            = $_GET["page"] ?? "home";
+$page            = $_POST["page"] ?? "home";
 ?>
 
 <html lang="en">
