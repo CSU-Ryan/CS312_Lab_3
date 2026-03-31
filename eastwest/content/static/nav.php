@@ -1,29 +1,21 @@
 <?php
-function linkTo($direction) {
-    return "?direction={$direction}";
+function linkTo($direction, $page) {
+    $form = '
+    <form method="post" action="?direction={$direction}">
+        <input type="hidden" name="page" value="{$page}">
+        <input type="submit" value="{ucwords($page)}">
+    </form>
+    ';
+
+    return htmlspecialchars($form);
 }
 ?>
 
 <nav>
     <ul>
-        <li>
-            <form method="post" action="?direction=<?php echo $direction; ?>">
-                <input type="hidden" name="page" value="home">
-                <input type="submit" value="Home">
-            </form>
-        </li>
-        <li>
-            <form method="post" action="?direction=<?php echo $direction; ?>">
-                <input type="hidden" name="page" value="about">
-                <input type="submit" value="About">
-            </form>
-        </li>
-        <li>
-            <form method="post" action="?direction=<?php echo $direction; ?>">
-                <input type="hidden" name="page" value="foods">
-                <input type="submit" value="Foods">
-            </form>
-        </li>
-        <li><a href="?direction=<?php echo $other_direction; ?>">Switch</a></li>
+        <li> <?php echo linkTo($direction, "home"); ?> </li>
+        <li> <?php echo linkTo($direction, "about"); ?> </li>
+        <li> <?php echo linkTo($direction, "foods"); ?> </li>
+        <li> <?php echo linkTo($other_direction, $page); ?> </li>
     </ul>
 </nav>
