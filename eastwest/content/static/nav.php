@@ -1,12 +1,12 @@
 <?php
 function linkTo($direction, $page) {
     $page_name = ucwords($page);
-    $form = '
+    return <<<EOT
     <form method="post" action="?direction=$direction">
         <input type="hidden" name="page" value="$page">
-        <input type="submit" value="$page_name">
+        <input type="submit" value="{ucwords($page)}">
     </form>
-    ';
+    EOT;
 
     return $form;
 }
