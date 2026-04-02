@@ -40,12 +40,12 @@ nav form {
     font-size: large;
 }
 
-button, a {
+.nav-button, a {
     color: var(--alt-light);
     text-decoration: none;
 }
 
-button:hover, a:hover {
+.nav-button:hover, a:hover {
     color: var(--alt-dark);
     font-style: italic;
 }
