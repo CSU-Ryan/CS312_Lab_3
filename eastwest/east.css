@@ -31,9 +31,11 @@ nav li {
     margin: 0 25px;
 }
 
+nav form {
+    display: inline;
+}
+
 .nav-button {
-    margin: 0;
-    padding: 0;
     border: none;
     background: none;
     display: inline-block;
@@ -42,8 +44,6 @@ nav li {
     font-family: monospace;
     font-weight: bold;
     font-size: large;
-
-    justify-content: center;
 }
 
 .nav-button, a {
