@@ -1,9 +1,9 @@
 <?php
 function linkTo($direction, $page, $name) {
     return <<<EOT
-    <form method="post" action="?direction=$direction" class="nav-button">
+    <form method="post" action="?direction=$direction">
         <input type="hidden" name="page" value="$page">
-        <input type="submit" value="$name">
+        <input class="nav-button" type="submit" value="$name">
     </form>
     EOT;
 
