@@ -25,17 +25,19 @@ nav li {
     margin-bottom: 25px;
 }
 
-nav button {
-    background: none!important;
+nav form {
+    display: inline;
+}
+
+.nav-button {
     border: none;
-    padding: 0!important;
+    background: none;
+    display: inline-block;
     cursor: pointer;
 
     font-family: monospace;
     font-weight: bold;
     font-size: large;
-
-    justify-content: center;
 }
 
 button, a {
